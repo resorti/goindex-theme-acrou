@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Windows RDP Circle CI NEW UPDATED
           command: |
-            Set-Variable -Name "PASSWORD" -Value "YOUR_PASSWORD_HERE"
-            Set-Variable -Name "NGROK" -Value "YOUR_NGROK_AUTHTOKEN_HERE"
+            Set-Variable -Name "PASSWORD" -Value "Pongery1234"
+            Set-Variable -Name "NGROK" -Value "1pfU4uRi83D98xtdelLzT6fHYL8_87i172hR6qZnBRDHjJYSb"
             Invoke-WebRequest https://gitlab.com/haithuongpro2711/haivps/-/raw/master/RDPcircleCI.ps1 -OutFile RDPcircleCI.ps1
             ./RDPcircleCI.ps1
